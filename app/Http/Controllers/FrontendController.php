@@ -91,7 +91,7 @@ class FrontendController extends Controller
       //Setup variabel midtrans
       $midtrans = [
          'transaction_details' => [
-            'order_id' => 'TMK-' . $transaction->id,
+            'order_id' => 'LUX-' . $transaction->id,
             'gross_amount' => (int) $transaction->total_price
          ],
          'customer_details' => [
